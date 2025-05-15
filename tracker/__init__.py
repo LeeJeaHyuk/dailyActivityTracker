@@ -1,0 +1,3 @@
+"""
+Daily Activity Tracker package
+""" 

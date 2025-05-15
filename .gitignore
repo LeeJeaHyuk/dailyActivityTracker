@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# 환경설정/가상환경
+.env
+.venv/
+venv/
+env/
+
+# IDE/에디터
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# 로그/임시/백업
+logs/
+*.log
+*.bak
+*.tmp
+
+# 모델/데이터/실험 결과
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+*.gguf
+*.ggml
+*.npz
+*.npy
+*.csv
+*.tsv
+*.jsonl
+*.jpg
+*.png
+*.pdf
+
+# 프로젝트 내 특정 폴더
+storage/activities/*/diffs/
+storage/activities/*/metadata/
+storage/activities/*/summaries/
+
+# 기타
+README.md.json
+
+# OS별
+Thumbs.db
+Desktop.ini
+
+# 빌드/배포
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# 테스트 산출물
+.coverage
+.tox/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 기타 무시할 폴더
+summarizer/logs/
+summarizer/__pycache__/
+tracker/__pycache__/
+storage/__pycache__/
+config/__pycache__/ 
